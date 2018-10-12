@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 888px;
+  border: solid black;
+}
+.boxSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 888px;
+  border: solid black;
+  flex-flow: row wrap;
+}
+div {
+  background-color: white;
+  border: solid black 1px;
+  height: 10px;
+  width: 10px;
+}
+.paletteSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 888px;
+  border: solid black;
+}
+.paletteSection div {
+  padding: 20px;
+}
+#eraseButton,
+#eraseAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
